@@ -31,7 +31,10 @@ public class P4_Anagram {
 		
 		Arrays.sort(a1);
 		Arrays.sort(a2);
-	
+		System.out.println("String after Sorting");
+		System.out.println(Arrays.toString(a1));
+		System.out.println(Arrays.toString(a2));
+		
 		if(Arrays.equals(a1, a2)) {
 			System.out.println("String 1 and String 2 are Anagram");
 		}
